@@ -3,7 +3,7 @@
   $limite = 1000000;
   $tiempo_inicio = microtime(true);
   while($contador < $limite){
-      echo $contador . '<br />';
+      echo $contador . ' - ';
       $contador++;
   }
   $tiempo_fin = microtime(true);
