@@ -1,4 +1,5 @@
 <?php
+  echo "Contador de números en Php";
   $contador = 1;
   $limite = 1000000;
   $tiempo_inicio = microtime(true);
