@@ -8,5 +8,5 @@
       $contador++;
   }
   $tiempo_fin = microtime(true);
-  echo "Tiempo empleado: " . ($tiempo_fin - $tiempo_inicio);
+  echo '<br/>' . "Tiempo empleado: " . ($tiempo_fin - $tiempo_inicio);
 ?>
